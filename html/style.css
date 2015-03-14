@@ -1,0 +1,135 @@
+/*---------General-----------*/
+body{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+ul li{
+	display: inline-block;
+	padding-right: 15px;
+	list-style: none;
+
+}
+
+/*---------Navigation-----------*/
+.header{
+	float:right;
+	position: absolute;
+	right: 40px;
+	top: 0px;
+}
+
+.header li img{
+	position: relative;
+	top: 7px;
+}
+
+#Signin {
+	margin: 1px solid #4285f4;
+	padding: 7px 11px 7px 11px;
+	background-color: #4285f4;
+	border-radius: 3px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+
+/*---------Center-----------*/
+
+.center{
+	display: block;
+	width:100%;
+	text-align: center;
+}
+
+.center img{
+	padding-top: 200px;
+	padding-bottom: 25px;
+	width: 269px;
+	height:95px;
+	margin:auto;
+}
+
+.searchbox{
+	width: 437px;
+	height: 19px; 
+	margin-bottom: 10px;
+}
+
+form{
+	text-align: center;
+}
+.search_butt{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F3F3F3;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-right: 15px;
+	color: #404040;
+	border:1px solid #E4E4E4;
+
+}
+
+.lucky_butt{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F3F3F3;
+	border-radius: 4px;
+	font-weight: bold;
+	margin: 0px;
+	color: #404040;
+	border:1px solid #E4E4E4;
+}
+
+input{
+    border:1px solid #cecece;
+    }
+
+input:hover{
+	border:1px solid #9a9a9a;
+}
+
+
+/*---------Footer-----------*/
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 1px;
+	right:1px;
+	border-top: 1px solid #E4E4E4;
+	background-color: #F3F3F3;
+}
+
+.left_align{
+	float:left;
+	width:38%;
+}
+
+.right_align{
+	float: right;
+}
+
+.left_align ul li, .right_align ul li{
+	color: #666;
+}
+
+.left_align ul li{
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.right_align ul li{
+	padding-right: 20px;
+}
